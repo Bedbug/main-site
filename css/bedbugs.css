@@ -1,0 +1,116 @@
+.settings{
+	width: 300px;
+	margin-right: -300px;
+}
+
+.connector{
+	/*max-width: 600px;*/
+	height: 75px;
+     margin: -75px auto;
+    /*overflow:hidden;*/
+    /*border:solid 1px #000;*/
+}
+
+.connector div{
+	width: 100%;
+    position:relative;
+    left: 50%;
+	bottom: 50px;
+    margin-left: -75px;
+}
+.connector img{
+	 display:block;
+	
+	 /*height: 500px;*/
+	 width: 150px;
+    /*margin: 0px auto;*/
+}
+
+.app-icon{
+	border-radius: 20%;
+	max-width: 150px;
+}
+
+.features-list{
+	background-color: #007EFD;
+	color: #fff;
+}
+
+.features-list h2{
+	color: #fff;
+}
+
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter ….3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+
+
+
+#logos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#logos li {
+    display: inline;
+    margin-right: 30px;
+}
+
+
+#logos li {
+    background: transparent;
+    border: 0;
+    margin: 15px;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+}
+
+
+#logos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.partner-logo{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+@media (max-width: 639px) and (orientation: portrait){
+.partner-logo {
+    width: 8% !important;
+}
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+.partner-logo {
+    width: 10% !important;
+}
+}
+
+@media (min-width: 1024px){
+.partner-logo {
+    width: 12% !important;
+}
+}
+@media (max-width: 639px){
+#logos li {
+    margin-right: 1px;
+}
+}
+
+@media (min-width: 1024px){
+#logos li {
+    margin-right: 5px;
+}
+}
