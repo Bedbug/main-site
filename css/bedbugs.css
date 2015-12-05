@@ -28,7 +28,7 @@
 
 .app-icon{
 	border-radius: 20%;
-	max-width: 150px;
+	max-width: 120px;
 }
 
 .features-list{
@@ -107,10 +107,119 @@ img.grayscale:hover {
 #logos li {
     margin-right: 1px;
 }
+
+header .top-logo img{
+    display: none;
+    
 }
+
+header .small-logo img{
+    padding: 0;
+    margin-bottom: -50px;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block !important;
+    
+}
+
+.header .full-screen{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -1200px !important;
+    background-image: url();
+}
+}
+
+.header .full-screen {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0073FB;
+}
+
 
 @media (min-width: 1024px){
 #logos li {
     margin-right: 5px;
 }
+}
+
+/* Section Home*/
+.intro-text{
+ text-align:left;   
+}
+.low-text{
+   color: white;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    bottom: -4px;
+    position: relative;
+    line-height: 40px;
+    font-size: 48px;
+}
+
+.middle-text{
+     color: white;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1px;
+    /* width: 100px; */
+    line-height: 53px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 48px;
+    z-index: 2;
+}
+.high-text{
+      color: white;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1px;
+    /* width: 100px; */
+    line-height: 28px;
+    position: relative;
+    top: 0px;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: 60px;
+}
+.header .full-screen{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -785px;
+    background-image: url(../img/ghost-bg.jpg);
+}
+
+header .small-logo img{
+    display: none;
+    
+}
+
+/*header .top-logo > img {
+    display: inline-block;
+    max-height: 100%;
+    width: 334px;
+}*/
+
+.section-header .section-description {
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: inherit;
 }
